@@ -1,0 +1,23 @@
+PROJECT_NAME           = "G4SpadSimulator"
+OUTPUT_DIRECTORY       = "doc"
+INPUT                  = @PROJECT_SOURCE_DIR@/source
+FILE_PATTERNS          = *.hh *.cc
+RECURSIVE              = YES
+LAYOUT_FILE            = @PROJECT_SOURCE_DIR@/source/doc/DoxygenLayout.xml
+EXCLUDE_PATTERNS       = */contrib/*
+
+PREDEFINED             = DOXYGEN_SHOULD_SKIP_THIS
+
+ENABLE_PREPROCESSING   = YES
+MULTILINE_CPP_IS_BRIEF = YES
+EXTRACT_ALL            = NO
+WARN_IF_UNDOCUMENTED   = YES
+EXTRACT_STATIC         = YES
+SOURCE_BROWSER         = YES
+HTML_DYNAMIC_SECTIONS  = YES
+USE_MATHJAX            = YES
+PAPER_TYPE             = letter
+HIDE_UNDOC_RELATIONS   = YES
+HAVE_DOT               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES

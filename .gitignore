@@ -1,0 +1,43 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Bin folder
+bin/*
+*/Core_build/*
+
+# kdev4 file
+*.kdev4
+
+# config file folders
+configXLS/*
+importFiles/*
+*.cfg
+.idea/*
+*.xls
+*.root
