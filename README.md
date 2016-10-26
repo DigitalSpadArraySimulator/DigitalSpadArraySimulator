@@ -43,3 +43,6 @@ N38-4, november 2 2016.
 
 BUILD
 Look at the QuickStartGuide.txt to build the project.
+An example root file for a 1x1x10 mm3 LYSO scintillator with 125000 events is available at:
+https://ufile.io/43a7
+If the link has expired, please contact the administrator.
