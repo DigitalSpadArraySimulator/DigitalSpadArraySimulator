@@ -55,8 +55,8 @@ But you can produce a root file yourself.
 You will need the following structure:
     TTree named "tree"
         TBranch named "GlobalTime"    composed of std::vector<float> (ns)
-        TBranch named "PositionX"     composed of std::vector<float> (um)
-        TBranch named "PositionY"     composed of std::vector<float> (um)
+        TBranch named "PositionX"     composed of std::vector<float> (mm)
+        TBranch named "PositionY"     composed of std::vector<float> (mm)
         TBranch named "PostMomentumX" composed of std::vector<float> (unit Vector)
         TBranch named "PostMomentumY" composed of std::vector<float> (unit Vector)
         TBranch named "PostMomentumZ" composed of std::vector<float> (unit Vector)
